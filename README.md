@@ -84,8 +84,52 @@ Após personalizar ainda mais o prompt e o sistema de contexto, o modelo respond
 
 ---
 
-## ✍️ Conclusão
+## 🖼️ Outras imagens capturadas durante o processo.
 
-Explorar o **Azure OpenAI** foi uma experiência reveladora. Além de testar modelos como o GPT-4.1, entendi melhor como os parâmetros e o contexto influenciam o comportamento da IA. Pretendo avançar para integrações via API, explorar fine-tuning e desenvolver soluções com base nesse serviço robusto e flexível.
+Criação da instância do serviço Azure OpenAI no portal.
+
+![Criação da instância Azure OpenAI](assets/02-azure-openai-instance-create.png)
+
+Interface inicial da Foundry após criar a instância.
+ 
+![Acesso à Foundry do Azure OpenAI](assets/06-azure-openai-foundry.png)
+
+Tela mostrando modelos como GPT-4 e GPT-4 Turbo.
+
+![Modelos disponíveis na Foundry](assets/07-azure-openai-foundry-modelos.png)
+
+Conclusão da criação e liberação de uso do GPT-4.1.
+
+![Modelo GPT-4.1 pronto para uso](assets/09-azure-openai-foundry-conclusoes-usar-modelo-gpt-4.1-implantadado.png)
+  
+Exemplo de análise de tokenização com a biblioteca `tiktoken`.
+
+![Tokenização com tiktoken](assets/10-tokenizacao-tiktoken.png)
+
+Tela de ajuste de parâmetros como temperatura e frequência.
+
+![Ajuste de parâmetros no Playground](assets/12-azure-playground-parametros.png)
+
+Personalização de instruções e contexto no prompt.
+
+![Instruções e contexto personalizados](assets/13-azure-playground-alterando-instrucoes-e-contexto.png)
+
+Bug apresentado no uso do Playground com prompts extensos.
+
+![Erro durante uso do Playground](assets/14-azure-playground-erro-bug.png)
+
+Resposta sem personalização.
+
+![Resposta padrão do modelo](assets/15-azure-playground-resposta.png)
+
+Resposta com instruções customizadas.
+
+![Resposta com personalização](assets/15-azure-playground-resposta-personalizada.png)
 
 ---
+
+## 📌 Conclusão
+
+Essa exploração com o Azure OpenAI demonstrou como a plataforma é robusta, flexível e bem integrada ao ecossistema da Microsoft. O Playground é uma excelente ferramenta para validar ideias e protótipos antes de integrar os modelos em sistemas mais complexos.
+
+Ainda que tenha notado alguns bugs, a documentação e a interface gráfica facilitam muito o uso. Para usos mais avançados, recomendo explorar as APIs diretamente, integrar via SDKs ou configurar pipelines em ambiente de produção.
